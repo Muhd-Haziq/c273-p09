@@ -7,7 +7,7 @@ $(document).ready(function () {
     //var labels = ["Singapore", "Malaysia", "Thailand", "Vietnam", "Myanmar"];
 
     $.ajax({
-        url: "http://localhost/C273/C273_L09CloudNine/getStatistics.php",
+        url: "https://p09-19047241.azurewebsites.net/getStatistics.php",
         cache: false,
         dataType: "JSON",
         success: function (response) {
